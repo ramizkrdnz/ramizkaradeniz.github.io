@@ -2,11 +2,115 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Ramiz Karadeniz - Personal Website</title>
+  <title>Ramiz Karadeniz - Bioinformatics & Software</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #f0f4f8, #dbeafe);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1e293b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      max-width: 700px;
+      width: 90%;
+    }
+
+    h1 {
+      color: #1d4ed8;
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #0f172a;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      background: #f1f5f9;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+    }
+
+    .contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 5px;
+      background-color: #3b82f6;
+      color: white;
+      transition: background-color 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #1e40af;
+    }
+
+  </style>
 </head>
 <body>
-  <h1>Ramiz Karadeniz</h1>
-  <p>Welcome to my personal website!</p>
-  <p>I’m a bioinformatics and software development student interested in data science, coding, and modern research tools.</p>
+  <div class="container">
+    <h1>Ramiz Karadeniz</h1>
+    <p>Bioinformatics & Software Enthusiast. Passionate about data science, web development, and modern research technologies.</p>
+
+    <div class="buttons">
+      <a href="#projects">📊 Projects</a>
+      <a href="#contact">📫 Contact</a>
+    </div>
+
+    <div id="projects">
+      <h2>🔬 Projects</h2>
+      <ul>
+        <li><strong>RNA-Seq Analysis:</strong> Expression analysis with Jupyter notebooks</li>
+        <li><strong>SNP Detection:</strong> Variant analysis using NCBI data</li>
+        <li><strong>3D Protein Modeling:</strong> Visualizing structures from PDB files</li>
+      </ul>
+    </div>
+
+    <div id="contact" class="contact">
+      <h2>📫 Contact</h2>
+      <p>Email: ramiz.karadeniz81@gmail.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/ramizkaradeniz" target="_blank">linkedin.com/in/ramizkaradeniz</a></p>
+    </div>
+  </div>
 </body>
 </html>
